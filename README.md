@@ -49,5 +49,5 @@ For the keyboard, we advise you to use a keyboard that have one more column with
  | ------------- | ------------- |
  | LED/DEL  | 16  |
  | Buzzer  | 4 |
- | Keypad/Clavier | Lignes [17,27,22,5]
-                    Colonnes [6,13,19,26] |
+ | Keypad/Clavier | Lignes/Rows [17,27,22,5] |
+ | Keypad/Clavier | Colonnes/Columns [6,13,19,26] |
