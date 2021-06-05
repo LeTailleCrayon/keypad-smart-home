@@ -75,7 +75,7 @@ For the keyboard, we advise you to use a keyboard that have one more column with
 # Configuration - First Setup (en) / Premier démarrage (fr)
 Run the file called "setup-configuration-en.py" with your RPi Shell in SSH, by typing this (en) / Executez le fichier "demarrage-configuration-fr.py" dans le terminal du RPi en saisissant :
 
- cd keypad-smart-home-package |
+ `cd keypad-smart-home-package 
 According to your language / Selon votre langue :
 | sudo python3 setup-configuration-en.py | (en)
 | sudo python3 demarrage-configuration-fr.py | (fr)
