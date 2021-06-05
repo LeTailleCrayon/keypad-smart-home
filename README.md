@@ -2,6 +2,8 @@
 Utilisez un clavier numérique pour contrôler votre installation connectée ! (Fonctionne avec HomeAssistant, Domoticz et autres...) / Use a keypad to control your smart home functionnalities ! (Works with Home-Assistant, Domoticz and others)
 
 Multi-languages documentations available !
+- English (en)
+- Français (fr)
 
 # Prerequis (en) / Prérequis (fr)
 
