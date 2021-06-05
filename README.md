@@ -26,7 +26,7 @@ This table is updated monthly and list all of the devices that can run keypad-sm
  | Raspberry Pi Zero W  | Ok. With GPIOs  |
  | Raspberry Pi 3+/4+ | OK |
 
-For the keyboard, we advise you to use a keyboard that have one more row with the "ABCD#" buttons. (en) / Pour le clavier nous vous recommandons d'utiliser un clavier avec une rangée suppplémentaire contenant les touches "ABCD#" (fr)
+For the keyboard, we advise you to use a keyboard that have one more column with the "ABCD#" buttons. (en) / Pour le clavier nous vous recommandons d'utiliser un clavier avec une rangée suppplémentaire contenant les touches "ABCD#" (fr)
 
 ![keypad](https://protosupplies.com/wp-content/uploads/2017/11/Membrane-Keypad-4-x-4.jpg)
 
@@ -49,5 +49,5 @@ For the keyboard, we advise you to use a keyboard that have one more row with th
  | ------------- | ------------- |
  | LED/DEL  | 16  |
  | Buzzer  | 4 |
- | Keypad/Clavier | self.ROW         = [17,27,22,5]
-            self.COLUMN      = [6,13,19,26] |
+ | Keypad/Clavier | Lignes [17,27,22,5]
+                    Colonnes [6,13,19,26] |
