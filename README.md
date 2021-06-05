@@ -14,4 +14,11 @@ Multi-languages documentations available !
 # Compatibilities (en) / Compatibilité (fr)
 
 - Hardware (en) / Matériel (fr) :
- For the moment, our project is only available with the Raspberry Pi computers. The RPi needs to have a wifi connection and some GPIO Ports (en) / Pour le moment, notre projet ne fonctionne qu'avec les machines Raspberry Pi. Le micro-ordinateur doit disposer d'une connexion Wifi et de plusieurs ports GPIO. (fr)
+ For the moment, our project is only available with the Raspberry Pi computers. The RPi needs to have a wifi connection and some GPIO Ports. If you want, you can try to make it run on some other devices that can run Python scripts! (en) / Pour le moment, notre projet ne fonctionne qu'avec les machines Raspberry Pi. Le micro-ordinateur doit disposer d'une connexion Wifi et de plusieurs ports GPIO. Si vous el souhaitez, vous pouvez essayer de l'adapter pour le faire fonctionner sur tout appareil pouvant éxecuter des scripts Python !(fr)
+
+| Matériel  | Compatibilité |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+For the keyboard, we advise you to use a keyboard that have one more row with the "ABCD#" buttons. (en) / Pour le clavier nous vous recommandons d'utiliser un clavier avec une rangée suppplémentaire contenant les touches "ABCD#" (fr)
