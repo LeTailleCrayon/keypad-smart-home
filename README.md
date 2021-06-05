@@ -66,3 +66,15 @@ For the keyboard, we advise you to use a keyboard that have one more column with
  | R2 | 27 |
  | R3 | 22 |
  | R4 | 5 |
+ 
+ - Download and install the newest version of Raspberry Pi OS Lite (https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip) / Téléchargez la dernière versions de Raspberry Pi OS Lite (fr)
+ - On start, update all the packages and make sure to enable SSH/SFTP / Au démarrage, mettez à jour le système et activez SSH/SFTP (fr)
+ - Download the "keypad-smart-home-package.zip" file, extract it and move the folder on your RPi main path (via FileZilla) (en) / Téléchargez la dernière version du fichier "keypad-smart-home-package.zip", décompressez le et déplacez-le vers le répertoire principal /root de votre RPi (via Filezille) (fr)
+
+#Configuration - First Setup (en) / Premier démarrage (fr)
+Run the file called "setup-configuration-en.py" with your RPi Shell in SSH, by typing this (en) / Executez le fichier "demarrage-configuration-fr.py" dans le terminal du RPi en saisissant :
+
+| cd keypad-smart-home-package |
+According to your language / Selon votre langue :
+| sudo python3 setup-configuration-en.py | (en)
+| sudo python3 demarrage-configuration-fr.py | (fr)
