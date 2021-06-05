@@ -55,3 +55,14 @@ For the keyboard, we advise you to use a keyboard that have one more column with
  Find the rows and the columns with this diagram made by AzDelivery (en) / Trouvez les cables correspondants aux lignes et colonnes avec ce schéma de AZDelivery (fr) :
  
  ![Diagram](https://images-na.ssl-images-amazon.com/images/I/61ih6z9E3NL._SL1500_.jpg)
+ 
+ | Output | GPIO (BCM) |
+ | ------------- | ------------- |
+ | C1  | 6  |
+ | C2  | 13 |
+ | C3 | 19 |
+ | C4 | 26 |
+ | R1 | 17 |
+ | R2 | 27 |
+ | R3 | 22 |
+ | R4 | 5 |
