@@ -82,6 +82,6 @@ Run the file called "setup-configuration-en.py" with your RPi Shell in SSH, by t
 
 `sudo python3 demarrage-configuration-fr.py` (fr)
 
-And follow the differents steps
+And follow the differents steps (en) / Et suivez les étapes (fr)
 
 > Manual Configuration Mode (en only) : You can configure keypad-smart-home using a json file, for that, download the last version of the file called "manual-configuration.json", and complete it with your differents informations. Move it into the folder called "manual configuration > json" and run in Python the file called "json-configuration.py", it will detects your file and apply all modifications automatically.
