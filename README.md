@@ -26,4 +26,4 @@ This table is updated monthly and list all of the devices that can run keypad-sm
 
 For the keyboard, we advise you to use a keyboard that have one more row with the "ABCD#" buttons. (en) / Pour le clavier nous vous recommandons d'utiliser un clavier avec une rangée suppplémentaire contenant les touches "ABCD#" (fr)
 
-(https://protosupplies.com/wp-content/uploads/2017/11/Membrane-Keypad-4-x-4.jpg)
+!(https://protosupplies.com/wp-content/uploads/2017/11/Membrane-Keypad-4-x-4.jpg)
