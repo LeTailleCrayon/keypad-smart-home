@@ -3,4 +3,4 @@ Utilisez un clavier numérique pour contrôler votre installation connectée ! (
 
 Multi-languages documentation !
 
-🇫🇷 (fr) Documentation en Français
+# (en) English Documentation
