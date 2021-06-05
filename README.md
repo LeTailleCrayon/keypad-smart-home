@@ -51,3 +51,7 @@ For the keyboard, we advise you to use a keyboard that have one more column with
  | Buzzer  | 4 |
  | Keypad/Clavier | Lignes/Rows [17,27,22,5] |
  | Keypad/Clavier | Colonnes/Columns [6,13,19,26] |
+ 
+ Find the rows and the columns with this diagram made by AzDelivery (en) / Trouvez les cables correspondants aux lignes et colonnes avec ce schéma de AZDelivery (fr) :
+ 
+ ![Diagram](https://images-na.ssl-images-amazon.com/images/I/61ih6z9E3NL._SL1500_.jpg)
