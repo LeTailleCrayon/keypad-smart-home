@@ -8,6 +8,8 @@ Multi-languages documentations available !
 # Prerequis (en) / Prérequis (fr)
 
 - 1 numeric keypad (en) / 1 Clavier Numérique (fr)
+- 1 buzzer (en) / 1 buzzer (pour le son) (fr)
+- 1 led (en) / 1 DEL (fr)
 - 1 RPi Zero WH at least (en) / 1 RPi Zero WH au minimum (fr)
 - 1 Smart Home Hub (eg. Home Assistant or Domoticz) / 1 Concentrateur Domotique (ex: Home Assistant ou Domoticz)
 
@@ -27,3 +29,25 @@ This table is updated monthly and list all of the devices that can run keypad-sm
 For the keyboard, we advise you to use a keyboard that have one more row with the "ABCD#" buttons. (en) / Pour le clavier nous vous recommandons d'utiliser un clavier avec une rangée suppplémentaire contenant les touches "ABCD#" (fr)
 
 ![keypad](https://protosupplies.com/wp-content/uploads/2017/11/Membrane-Keypad-4-x-4.jpg)
+
+- Software (en) / Logiciels (fr)
+ Now, our projects can ineract with Home-Assistant and Domoticz but you can make it run with any webhook-based system (en) / Actuellement, notre projet intéragit nativement avec Home-Assistant et Domoticz, mais vous pouvez le faire fonctionner en Webhook avec n'importe quel système.
+
+ | Software  | Compatibilité |
+ | ------------- | ------------- |
+ | Home Assistant  | OK  |
+ | Domoticz  | Ok |
+ | IFTTT Webhooks | OK (Better with IFTTT Pro) |
+ 
+ # Installation
+ 
+ First, install the keyboard, the led and the buzzer (en) / Premièrement, intsallons le clavier, la DEL et le buzzer :
+ 
+ Here is the connections diagram (en) / Voici le schéma de connexion :
+ 
+  | Matériel | GPIO (BCM) |
+ | ------------- | ------------- |
+ | LED/DEL  | 16  |
+ | Buzzer  | 4 |
+ | Keypad/Clavier | self.ROW         = [17,27,22,5]
+            self.COLUMN      = [6,13,19,26] |
