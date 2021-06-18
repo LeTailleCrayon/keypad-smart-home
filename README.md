@@ -1,5 +1,5 @@
-# Le Taille Crayon Projects - keypad-smart-home
-Utilisez un clavier numérique pour contrôler votre installation connectée ! (Fonctionne avec HomeAssistant, Domoticz et autres...) / Use a keypad to control your smart home functionnalities ! (Works with Home-Assistant, Domoticz and others)
+# Le Taille Crayon Projects - sanse.smarthome.keypad
+Utilisez un clavier numérique pour contrôler votre installation connectée ! (Fonctionne avec HomeAssistant, Domoticz et autres...) / Use a keypad to control your smart home functionnalities ! (Works with Sanse.SmartHome, Home-Assistant, Domoticz and others)
 
 Multi-languages documentations available !
 - English (en)
@@ -18,7 +18,7 @@ Multi-languages documentations available !
 - Hardware (en) / Matériel (fr) :
  For the moment, our project is only available with the Raspberry Pi computers. The RPi needs to have a wifi connection and some GPIO Ports. If you want, you can try to make it run on some other devices that can run Python scripts! (en) / Pour le moment, notre projet ne fonctionne qu'avec les machines Raspberry Pi. Le micro-ordinateur doit disposer d'une connexion Wifi et de plusieurs ports GPIO. Si vous el souhaitez, vous pouvez essayer de l'adapter pour le faire fonctionner sur tout appareil pouvant éxecuter des scripts Python !   (fr)
 
-This table is updated monthly and list all of the devices that can run keypad-smart-home (en) / Ce tableau est actualisé tous les mois et liste les appareils pouvant supporter keypad-smart-home (fr)
+This table is updated monthly and list all of the devices that can run sanse.smarthome.keypad (en) / Ce tableau est actualisé tous les mois et liste les appareils pouvant supporter sanse.smarthome.keypad (fr)
 
  | Matériel  | Compatibilité |
  | ------------- | ------------- |
@@ -35,6 +35,7 @@ For the keyboard, we advise you to use a keyboard that have one more column with
 
  | Software  | Compatibilité |
  | ------------- | ------------- |
+ | Sanse.SmartHome| OK |
  | Home Assistant  | OK  |
  | Domoticz  | Ok |
  | IFTTT Webhooks | OK (Better with IFTTT Pro) |
@@ -69,7 +70,7 @@ For the keyboard, we advise you to use a keyboard that have one more column with
  
  - Download and install the newest version of Raspberry Pi OS Lite (https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip) / Téléchargez la dernière versions de Raspberry Pi OS Lite (fr)
  - On start, update all the packages and make sure to enable SSH/SFTP / Au démarrage, mettez à jour le système et activez SSH/SFTP (fr)
- - Download the "keypad-smart-home-package.zip" file, extract it and move the folder on your RPi main path (via FileZilla) (en) / Téléchargez la dernière version du fichier "keypad-smart-home-package.zip", décompressez le et déplacez-le vers le répertoire principal /root de votre RPi (via Filezille) (fr)
+ - Download the "sanse-smarthome-keypad-package.zip" file, extract it and move the folder on your RPi main path (via FileZilla) (en) / Téléchargez la dernière version du fichier "sanse-smarthome-keypad-package.zip", décompressez le et déplacez-le vers le répertoire principal /root de votre RPi (via Filezille) (fr)
 
 
 # Configuration - First Setup (en) / Premier démarrage (fr)
@@ -78,10 +79,26 @@ Run the file called "setup-configuration-en.py" with your RPi Shell in SSH, by t
  `cd keypad-smart-home-package` 
  
  According to your language / Selon votre langue : 
-`sudo python3 setup-configuration-en.py ` (en)
+`sudo python3 sanse-kp-configuration-en.py ` (en)
 
-`sudo python3 demarrage-configuration-fr.py` (fr)
+`sudo python3 sanse-kp-configuration-fr.py` (fr)
 
 And follow the differents steps (en) / Et suivez les étapes (fr)
 
 > Manual Configuration Mode (en only) : You can configure keypad-smart-home using a json file, for that, download the last version of the file called "manual-configuration.json", and complete it with your differents informations. Move it into the folder called "manual configuration > json" and run in Python the file called "json-configuration.py", it will detects your file and apply all modifications automatically.
+
+# Connect it to your smart-home integrations ! (en) / Connectez le à vos intégrations de Maison Intelligente ! (fr)
+You can connect it to a lot of smart home platforms, the principals are : Sanse.SmartHome (Sanse.SH DIY Bridge required), HomeAssistant, Domoticz, IFTT Webhooks.
+
+<details>
+  <summary>Sanse.SmartHome (Bêta 0.1) :</summary>
+  ## What is that ? / C'est quoi ?
+
+  Sanse.SH is a smart home platform project that is 100% running in Python, so it can run on a lot of devices without using big performances. (en) / Sanse.SH est un projet de de   plateforme domotique qui fonctionne à 100% en Python, il peut être utilisé sur une majorité d'appareils sans utiliser beaucoup de performances. (fr)
+  
+  ## Prerequis
+  
+  1. A Sanse.SmartHome DIY Bridge (en) / Un concentrateur domotique DIY Sanse.SmartHome (fr)
+  2. An operational Sanse.SH system (en) / Un système opérationnel Sanse.SH (fr)
+  > !!UPCOMING!! - For the moment, Sanse.SH is on beta deployement and only some users can have access to it. We are working to improve the project and deploy it to all the         users that are interested by this project. (en) / Pour le moment, Sanse.SH est en phase de développement bêta et est en accès limité. Nous travaillons à développer ce projet     et à le rendre disponible à tous ceux interressés par ce projet ! (fr)
+</details>
